@@ -1,0 +1,115 @@
+/* Reset some default styles for consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling for the main container */
+.container {
+    text-align: center;
+    background-color: #ffffff;
+
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;  /* Ensures the form isn't too wide on large screens */
+}
+
+/* Heading styling */
+h1 {
+    color: #4CAF50;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Styling for the welcome message */
+.welcome-message {
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Form field styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Center align all form elements */
+}
+
+label {
+    text-align: left;
+    width: 100%;  /* Ensures the labels stretch the width of the form */
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+input[type="text"],
+select {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+/* Dropdown styling */
+select {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+/* Button styling */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 20px 0; /* Adds some spacing between the button and other elements */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #45a049;
+}
+
+/* Button active state */
+.btn:active {
+    background-color: #388e3c;
+}
+
+/* Section for hiding/showing fields based on user role */
+#employeeFields, #customerFields {
+    display: none;
+}
+
+/* Optional: Add some space between the form inputs */
+input[type="text"], select {
+    margin-bottom: 10px;
+}

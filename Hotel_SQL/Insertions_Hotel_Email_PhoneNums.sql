@@ -1,0 +1,103 @@
+SET search_path = "Hotel";
+
+-- Inserting Hotel Emails
+INSERT INTO Hotel_Email VALUES
+    (100001, 'timesq@marriott.com'),
+    (100001, 'timesq2@marriott.com'), -- Adding a second email, just to show that one hotel location can have multiple emails
+    (100002, '7thave@marriott.com'),
+    (100003, 'sunset@marriott.com'),
+    (100004, 'kingst@marriott.com'),
+    (100005, 'bayst@marriott.com'),
+    (100006, 'oceandr@marriott.com'),
+    (100007, 'broadst@marriott.com'),
+    (100008, 'parkave@marriott.com'),
+
+    (200001, 'parkave@hilton.com'),
+    (200001, 'parkave2@hilton.com'),
+    (200002, 'broadway@hilton.com'),
+    (200003, 'sunset@hilton.com'),
+    (200004, 'queenst@hilton.com'),
+    (200005, 'bayst@hilton.com'),
+    (200006, 'collins@hilton.com'),
+    (200007, 'mainst@hilton.com'),
+    (200008, 'elmst@hilton.com'),
+
+    (300001, 'kingst@hyatt.com'),
+    (300001, 'kingstnorth@hyatt.com'),
+    (300002, 'queenst@hyatt.com'),
+    (300003, 'marketst@hyatt.com'),
+    (300004, 'broadway@hyatt.com'),
+    (300005, 'michigan@hyatt.com'),
+    (300006, 'oceanblvd@hyatt.com'),
+    (300007, 'broadwayst@hyatt.com'),
+    (300008, 'pacificave@hyatt.com'),
+
+    (400001, 'bayst@fourseasons.com'),
+    (400001, 'baystto@fourseasons.com'),
+    (400002, 'yongest@fourseasons.com'),
+    (400003, 'collins@fourseasons.com'),
+    (400004, 'oceandr@fourseasons.com'),
+    (400005, 'kingst@fourseasons.com'),
+    (400006, 'sunsetblvd@fourseasons.com'),
+    (400007, 'parkave@fourseasons.com'),
+    (400008, 'fifthave@fourseasons.com'),
+
+    (500001, 'mainstla@bestwestern.com'),
+    (500001, 'mainst@bestwestern.com'),
+    (500002, 'hollywood@bestwestern.com'),
+    (500003, 'mainst200@bestwestern.com'),
+    (500004, 'statest@bestwestern.com'),
+    (500005, 'parkave@bestwestern.com'),
+    (500006, 'broadway@bestwestern.com'),
+    (500007, 'oceanave@bestwestern.com'),
+    (500008, 'collinsave@bestwestern.com');
+
+-- Inserting Hotel Phone Numbers
+INSERT INTO Hotel_Phone VALUES
+    (100001, '2125550101'),
+    (100001, '2125950101'), -- Adding a second phone number, just to show that one hotel location can have multiple phone numbers
+    (100002, '2125550102'),
+    (100003, '2135550103'),
+    (100004, '4165550104'),
+    (100005, '4165550105'),
+    (100006, '3055550106'),
+    (100007, '2155550107'),
+    (100008, '3125550108'),
+
+    (200001, '2125550201'),
+    (200002, '2125550202'),
+    (200003, '2135550203'),
+    (200004, '4165550204'),
+    (200005, '4165550205'),
+    (200006, '3055550206'),
+    (200007, '2155550207'),
+    (200008, '3125550208'),
+
+    (300001, '4165550301'),
+    (300001, '4165950301'),
+    (300002, '4165550302'),
+    (300003, '2125550303'),
+    (300004, '2125550304'),
+    (300005, '3125550305'),
+    (300006, '3055550306'),
+    (300007, '2135550307'),
+    (300008, '2135550308'),
+
+    (400001, '4165550401'),
+    (400002, '4165550402'),
+    (400003, '3055550403'),
+    (400004, '3055550404'),
+    (400005, '4165550405'),
+    (400006, '2135550406'),
+    (400007, '2125550407'),
+    (400008, '3125550408'),
+
+    (500001, '2135550501'),
+    (500001, '2135950501'),
+    (500002, '2135550502'),
+    (500003, '3125550503'),
+    (500004, '3125550504'),
+    (500005, '2125550505'),
+    (500006, '2125550506'),
+    (500007, '3055550507'),
+    (500008, '3055550508');
